@@ -1,0 +1,13 @@
+.site {
+    font-family: 'Noto Sans', sans-serif;
+    background: #333333;
+    color: #fdfdfd;
+    display: grid;
+    grid-template-areas:
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+}
+
