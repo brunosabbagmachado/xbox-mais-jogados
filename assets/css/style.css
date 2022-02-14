@@ -11,3 +11,123 @@
     grid-template-rows: 50px auto auto;
 }
 
+/*........................................................................*/
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    grid-area: cabecalho;
+    background: #1f1f1f;
+    box-shadow: 0px 10px 10px 1px rgb(0 0 0 / 60%);
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
+
+.menu__item {
+    padding: 0 3rem;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.menu__link {
+    color: #fdfdfd;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/*........................................................................*/
+
+.conteudo {
+    grid-area: conteudo;
+    padding: 1rem 2rem;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.conteudoPrincipal {
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+}
+
+.conteudoPrincipal__titulo {
+    background: rgba(0, 0, 0, .8);
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.conteudoPrincipal__principal {
+    background: url(../img/rdr2.jpg) center / cover no-repeat;
+    grid-row: 1/3;
+    grid-column: 1/4;
+}
+
+.conteudoPrincipal__descricao {
+    grid-row: 1/3;
+    grid-column: 4/5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoPrincipal__descricao___item{
+    padding: 1rem;
+}
+
+.conteudoPrincipal__secundario:nth-child(3) {
+    background: url(../img/hades.png) center / cover no-repeat;
+    grid-column: 1/1;
+    grid-row: 3/3;
+}
+
+.conteudoPrincipal__secundario:nth-child(4) {
+    background: url(../img/ACOrigins.webp) center / cover no-repeat;
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.conteudoPrincipal__secundario:nth-child(5) {
+    background: url(../img/dungeons.jpg) center / cover no-repeat;
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+.conteudoPrincipal__secundario:nth-child(6) {
+    background: url(../img/forza.jpg) center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+
+
+
+
+
+
+
+
+/*........................................................................*/
+.rodape {
+    grid-area: rodape;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
+    background: #1f1f1f;
+  }
+  
+
+
+
