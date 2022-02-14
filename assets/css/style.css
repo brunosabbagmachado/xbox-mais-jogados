@@ -23,6 +23,7 @@
 
 .menu__lista {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     margin: 1rem auto;
 }
@@ -70,12 +71,15 @@
 }
 
 .conteudoPrincipal__principal {
+    margin: 1rem;
     background: url(../img/rdr2.jpg) center / cover no-repeat;
     grid-row: 1/3;
     grid-column: 1/4;
+    box-shadow: 8px 8px 2px 2px rgb(12 124 16);
 }
 
 .conteudoPrincipal__descricao {
+    margin: 1rem;
     grid-row: 1/3;
     grid-column: 4/5;
     display: flex;
@@ -89,24 +93,28 @@
 }
 
 .conteudoPrincipal__secundario:nth-child(3) {
+    margin: .5rem;
     background: url(../img/hades.png) center / cover no-repeat;
     grid-column: 1/1;
     grid-row: 3/3;
 }
 
 .conteudoPrincipal__secundario:nth-child(4) {
+    margin: .5rem;
     background: url(../img/ACOrigins.webp) center / cover no-repeat;
     grid-column: 2/2;
     grid-row: 3/3;
 }
 
 .conteudoPrincipal__secundario:nth-child(5) {
+    margin: .5rem;
     background: url(../img/dungeons.jpg) center / cover no-repeat;
     grid-column: 3/3;
     grid-row: 3/3;
 }
 
 .conteudoPrincipal__secundario:nth-child(6) {
+    margin: .5rem;
     background: url(../img/forza.jpg) center / cover no-repeat;
     grid-column: 4/4;
     grid-row: 3/3;
