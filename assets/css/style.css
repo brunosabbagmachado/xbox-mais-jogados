@@ -75,21 +75,82 @@
     background: url(../img/rdr2.jpg) center / cover no-repeat;
     grid-row: 1/3;
     grid-column: 1/4;
-    box-shadow: 8px 8px 2px 2px rgb(12 124 16);
+    border: .15rem solid rgb(15, 145, 20);
+    border-radius: .3rem;
+    box-shadow: 10px 11px 11px 2px rgb(0 0 0 / 60%);
 }
 
 .conteudoPrincipal__descricao {
     margin: 1rem;
     grid-row: 1/3;
     grid-column: 4/5;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
-.conteudoPrincipal__descricao___item{
+.conteudoPrincipal__descricao {
     padding: 1rem;
+}
+
+.conteudoPrincipal__descricao___frase {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: .8rem;
+}
+
+.conteudoPrincipal__descricao___rank {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: rgb(15, 145, 20);
+}
+
+.conteudoPrincipal__descricao___nome {
+    grid-row: 2/3;
+    grid-column: 2/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.conteudoPrincipal__descricao___horas {
+    grid-row: 3/3;
+    grid-column: 1/4;
+    align-items: top;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(15, 145, 20);
+}
+
+.conteudoPrincipal__descricao___console {
+    grid-row: 3/3;
+    grid-column: 1/4;
+    font-size: .8rem;
+    align-items: top;
+    margin-top: 3rem;
+}
+
+
+.conteudoPrincipal__secundario {
+    border: .15rem solid rgb(15, 145, 20);
+    border-radius: .3rem;
+    box-shadow: 12px 13px 9px 2px rgb(0 0 0 / 60%);
+
 }
 
 .conteudoPrincipal__secundario:nth-child(3) {
