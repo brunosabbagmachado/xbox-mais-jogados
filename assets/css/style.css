@@ -244,7 +244,7 @@
     grid-template-areas:
         "card-cabecalho"
         "card-conteudo";
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 50px auto;
     padding: .75rem;
 }
 
