@@ -1,0 +1,78 @@
+.conteudoSecundario {
+    padding: 4rem 0 0 0;
+}
+
+.conteudoSecundario__cabecalho {
+    border-bottom: 1px solid #fdfdfddc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudoSecundario__titulo {
+    padding-bottom: .3rem;
+    color: #fdfdfddc;
+}
+
+.conteudoSecundario__botao {
+    background: transparent;
+    border: none;
+    color: #fdfdfddc;
+    padding-bottom: .3rem;
+}
+
+.conteudoSecundario__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: conteudo;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.conteudoSecundario__card {
+    display: grid;
+    grid-template-areas:
+        "card-imagem"
+        "card-corpo";
+     grid-template-columns: 100%;
+     grid-template-rows: 1fr auto;
+     margin: 0 .5rem;
+     width: calc(20% - 1rem);
+}
+
+.conteudoSecundario__card___imagem {
+    grid-area: card-imagem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: rgb(17, 167, 22);
+}
+
+.conteudoSecundario__card___corpo {
+    display: grid;
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas:
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: auto auto;
+    padding: .2rem;
+}
+
+.conteudoSecundario__card___cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoSecundario__card___titulo {
+    font-size: 1.2rem;
+    color: #fdfdfddc;
+}
+
+.conteudoSecundario__card___titulo .numero {
+    font-size: 1.5rem;
+    color: rgb(15, 145, 20);
+}

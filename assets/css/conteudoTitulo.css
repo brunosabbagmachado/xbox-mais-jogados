@@ -1,0 +1,13 @@
+.tituloPagina {
+    padding: 1rem 0;
+}
+
+.tituloPagina__conteudo {
+    border-bottom: 1px solid #fdfdfddc;
+    display: flex;
+}
+
+.tituloPagina__titulo {
+    padding-bottom: .3rem;
+    color: #fdfdfddc;
+}
