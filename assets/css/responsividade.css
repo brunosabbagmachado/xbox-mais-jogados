@@ -1,0 +1,18 @@
+@media screen and (min-width: 0) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .conteudoPrincipal__principal {
+        grid-column: 1/4;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200) {
+
+}
