@@ -2,24 +2,6 @@
     padding: 4rem 0 0 0;
 }
 
-.conteudoSecundario__cabecalho {
-    border-bottom: 1px solid #fdfdfddc;
-    display: flex;
-    justify-content: space-between;
-}
-
-.conteudoSecundario__titulo {
-    padding-bottom: .3rem;
-    color: #fdfdfddc;
-}
-
-.conteudoSecundario__botao {
-    background: transparent;
-    border: none;
-    color: #fdfdfddc;
-    padding-bottom: .3rem;
-}
-
 .conteudoSecundario__conteudo {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +16,7 @@
         "card-imagem"
         "card-corpo";
      grid-template-columns: 100%;
-     grid-template-rows: 1fr auto;
+     grid-template-rows: 180px auto;
      margin: 0 .5rem;
      width: calc(20% - 1rem);
 }
@@ -54,10 +36,6 @@
     display: grid;
     grid-area: card-corpo;
     grid-row-gap: .5rem;
-    grid-template-areas:
-        "card-cabecalho"
-        "card-conteudo";
-    grid-template-rows: auto auto;
     padding: .2rem;
 }
 

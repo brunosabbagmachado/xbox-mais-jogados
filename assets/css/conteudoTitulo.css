@@ -5,9 +5,17 @@
 .tituloPagina__conteudo {
     border-bottom: 1px solid #fdfdfddc;
     display: flex;
+    justify-content: space-between;
 }
 
 .tituloPagina__titulo {
     padding-bottom: .3rem;
     color: #fdfdfddc;
+}
+
+.tituloPagina__botao {
+    background: transparent;
+    border: none;
+    color: #fdfdfddc;
+    padding-bottom: .3rem;
 }

@@ -1,0 +1,45 @@
+.conteudoTerciario {
+    padding: 4rem 0 0 0;
+}
+
+.conteudoTerciario__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: conteudo;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.conteudoTerciario__card {
+    display: grid;
+    grid-template-areas:
+        "card-corpo";
+     grid-template-columns: 100%;
+     grid-template-rows: auto auto;
+     margin: 0 .5rem;
+     width: calc(20% - 1rem);
+}
+
+.conteudoTerciario__card___corpo {
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    padding: .2rem;
+    color: #fdfdfddc;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 10px 11px 11px 2px rgb(0 0 0 / 60%);
+}
+
+
+.conteudoTerciario__card___titulo {
+    font-size: 1rem;
+}
+
+.conteudoTerciario__card___numeros {
+    font-size: 8rem;
+    color: rgb(17, 167, 22);
+    padding: .2rem 0;
+}
