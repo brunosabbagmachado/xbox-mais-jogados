@@ -7,22 +7,15 @@
 .menu__lista {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 2rem;
 }
 
 .menu__item {
-    padding: auto 3rem;
+    padding: auto 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fdfdfd;
     text-decoration: none;
-}
-
-.menu__item:nth-child(5) {
-    grid-column: 7/8;
-    justify-content: right;
 }
 
 .menu__link {
@@ -39,7 +32,7 @@
 }
 
 .menu__imagem___logo {
-    width: 3rem;
+    width: 2rem;
 }
 
 .menu__imagem___perfil {

@@ -15,10 +15,7 @@
     grid-template-areas:
         "card-imagem"
         "card-corpo";
-     grid-template-columns: 100%;
-     grid-template-rows: 180px auto;
-     margin: 0 .5rem;
-     width: calc(20% - 1rem);
+    grid-template-columns: 100%;
 }
 
 .conteudoSecundario__card___imagem {

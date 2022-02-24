@@ -1,18 +1,277 @@
 @media screen and (min-width: 0) {
+  .menu__lista {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
 
+  .menu__item:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/1;
+  }
+
+  .menu__item:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/1;
+  }
+
+  .menu__item:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+
+  .menu__item:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/2;
+  }
+
+  .menu__item:nth-child(5) {
+    grid-column: 3/3;
+    grid-row: 2/2;
+  }
+
+  .menu__item:nth-child(6) {
+    grid-column: 3/3;
+    grid-row: 1/1;
+  }
+
+  .conteudoPrincipal__infos {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.6rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .conteudoPrincipal__titulo {
+    font-size: 1rem;
+  }
+
+  .conteudoPrincipal__subtitulo {
+    color: rgb(15, 145, 20);
+    padding: 0.2rem 0 0 0;
+    font-size: 0.8rem;
+  }
+
+  .conteudoPrincipal__titulo .numero {
+    color: rgb(15, 145, 20);
+    font-size: 1.2rem;
+  }
+
+  .conteudoPrincipal__principal {
+    grid-column: 1/5;
+    background: url(../img/rdr22.jpg) center / cover no-repeat;
+  }
+
+  .conteudoPrincipal__descricao {
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+
+  .conteudoPrincipal {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: calc(150vh - 50px);
+  }
+
+  .conteudoPrincipal__principal {
+    grid-row: 1/1;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(3) {
+    grid-column: 1/5;
+    grid-row: 2/2;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(4) {
+    grid-column: 1/5;
+    grid-row: 3/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(5) {
+    grid-column: 1/5;
+    grid-row: 4/4;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(6) {
+    grid-column: 1/5;
+    grid-row: 5/5;
+  }
+
+  .conteudoSecundario__card,
+  .conteudoTerciario__card {
+    grid-template-rows: auto auto;
+    margin-bottom: 3rem;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .conteudoTerciario__card___numeros {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 420px) {
+    .conteudoSecundario__card,
+    .conteudoTerciario__card {
+      grid-template-rows: auto auto;
+    }
 }
 
 @media screen and (min-width: 768px) {
-    .conteudoPrincipal__principal {
-        grid-column: 1/4;
-    }
+  .conteudoPrincipal__principal {
+    background: url(../img/rdr22.jpg) center / cover no-repeat;
+  }
 
+  .menu__lista {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 2rem;
+  }
+
+  .menu__item:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .menu__item:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+
+  .menu__item:nth-child(3) {
+    grid-column: 3/4;
+    grid-row: 1;
+  }
+
+  .menu__item:nth-child(4) {
+    grid-column: 4/5;
+    grid-row: 1;
+  }
+
+  .menu__item:nth-child(5) {
+    grid-column: 5/6;
+    grid-row: 1;
+  }
+
+  .menu__item:nth-child(6) {
+    grid-column: 6/6;
+    grid-row: 1;
+  }
+
+  .conteudoPrincipal {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+  }
+
+  .conteudoPrincipal__principal {
+    grid-row: 1/2;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(3) {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(4) {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(5) {
+    grid-column: 1/3;
+    grid-row: 3/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(6) {
+    grid-column: 3/5;
+    grid-row: 3/3;
+  }
+
+  .conteudoSecundario__card,
+  .conteudoTerciario__card {
+    grid-template-rows: 180px auto;
+    margin-right: 1rem;
+    width: calc(50% - 1rem);
+  }
+
+  .conteudoTerciario__card___numeros {
+    font-size: 6rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .conteudoSecundario__card,
+  .conteudoTerciario__card {
+    width: calc(33.33% - 1rem);
+  }
 
+  .conteudoTerciario__card___numeros {
+    font-size: 7rem;
+  }
 }
 
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
+  .menu__lista {
+    grid-template-columns: repeat(8, 1fr);
+  }
 
+  .menu__item:nth-child(5) {
+    grid-column: 7/8;
+  }
+
+  .menu__item:nth-child(6) {
+    grid-column: 8/8;
+  }
+
+  .conteudoPrincipal__principal .conteudoPrincipal__infos {
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+
+  .conteudoPrincipal__principal {
+    grid-column: 1/4;
+    grid-row: 1/3;
+  }
+
+  .conteudoPrincipal__descricao {
+    display: flex;
+    flex-direction: column;
+    grid-column: 4/4;
+    grid-row: 1/3;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(3) {
+    grid-column: 1/1;
+    grid-row: 3/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(4) {
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(5) {
+    grid-column: 3/3;
+    grid-row: 3/3;
+  }
+
+  .conteudoPrincipal__secundario:nth-child(6) {
+    grid-column: 4/4;
+    grid-row: 3/3;
+  }
+
+  .conteudoSecundario__card,
+  .conteudoTerciario__card {
+    margin-bottom: 0;
+    width: calc(20% - 1rem);
+  }
+
+  .conteudoTerciario__card___numeros {
+    font-size: 8rem;
+  }
 }
