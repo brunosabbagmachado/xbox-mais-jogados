@@ -141,6 +141,10 @@
     background: url(../img/rdr22.jpg) center / cover no-repeat;
   }
 
+  .menu__link {
+    font-size: 1rem;
+  }
+
   .menu__lista {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 2rem;
