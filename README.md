@@ -45,6 +45,10 @@ Os jogos mostrados nesse site são jogos que eu gosto de jogar, porém a quantid
 
 Todo site foi criado usando HTML 5 e CSS 3, sendo as principais ferramentas usadas o CSS Grid e Flexbox.
 
+Minha maior dificuldade foi entender o uso do Grid em cada classe e quais maneiras eu poderia dividir o meu projeto. Como eu não havia planejado o que fazer, também precisei usar alguns dias para testar qual seria a melhor forma de mostrar as informações.
+
+A responsividade nesse projeto foi mais fácil para mim, pois usando as colunas e linhas do Grid, ficou mais fácil de entender o que eu estava diminuindo, e não precisei sacrificar o tamanho original das imagens e textos, apenas reajustar a distribuição no grid.
+
 
 # Imagens
 
