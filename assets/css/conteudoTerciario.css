@@ -19,7 +19,6 @@
 
 .conteudoTerciario__card___corpo {
     grid-area: card-corpo;
-
     grid-template-rows: auto;
     grid-template-columns: auto;
     padding: .2rem;
@@ -27,12 +26,18 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    box-shadow: 10px 11px 11px 2px rgb(0 0 0 / 60%);
+    box-shadow: 5px 5px 11px 3px rgb(0 0 0 / 50%)
+}
+
+.conteudoTerciario__card___corpo:hover {
+    transform: scale(103%);
+    border: .18rem solid rgb(17, 167, 22);
 }
 
 
 .conteudoTerciario__card___titulo {
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .conteudoTerciario__card___numeros {

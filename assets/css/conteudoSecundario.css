@@ -18,6 +18,10 @@
     grid-template-columns: 100%;
 }
 
+.conteudoSecundario__card:hover {
+    transform: scale(102%);
+}
+
 .conteudoSecundario__card___imagem {
     grid-area: card-imagem;
     height: 100%;
@@ -26,7 +30,6 @@
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    color: rgb(17, 167, 22);
 }
 
 .conteudoSecundario__card___corpo {
